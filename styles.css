@@ -1,0 +1,48 @@
+.margins{
+  position: absolute;
+  right: 30px;
+  top: 1px;
+  font-size: 25px;
+}
+
+.heading{
+  color: red;
+}
+
+.coloring {
+  position: absolute;
+  color: #91091e;
+  left: 30px;
+  top: 2px;
+}
+
+img{
+  filter:blur(2px);
+  width: 100%;
+  z-index: -1;
+  position:absolute;
+}
+
+.change{
+  color: blue;
+  font-family: serif;
+}
+
+.button {
+  background-color: #28527a;
+  border: none;
+  color: white;
+  padding: 10px 12px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  margin: 0px 4px;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+.button:hover {
+  background-color: #008CBA;
+  color: white;
+}
